@@ -290,3 +290,62 @@ article img {
 .footer h4 {
     padding: 20px;
 }
+
+/*Media Screen*/
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+
+    .logo {
+        width: 100%;
+    }
+
+    .nav-bar {
+        margin-top: 15px;
+        display: inline-block;
+        float: none;
+    }
+
+    .nav-bar li {
+        padding-left: 50px;
+        padding-right: 60px;
+    }
+
+    .nav-bar-port li {
+        padding-left: 50px;
+        padding-right: 54px;
+    }
+
+    .main-container {
+        margin: 5px 20px 20px 20px;
+        width: 95%;
+    }
+
+    .socialbar {
+        margin: 5px 20px 20px 20px;
+        max-width: 650px;
+        width: 95%;
+        z-indeX: 99;
+    }
+
+    article {
+        float: none;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    article img {
+        height: 100%;
+        width: 600px;
+    }
+
+    .footer {
+        font-size: 15px;
+    }
+}
