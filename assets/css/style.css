@@ -250,6 +250,7 @@ article img {
     border-style: solid;
     border-top-color: #4aaaa5;
     bottom: 0px;
+    left: 0px;
     width: 100%;
 }
 
@@ -310,6 +311,10 @@ article img {
         margin-left: 20px;
     }
 
+    .nav-bar {
+        margin-right: 0px;
+    }
+
     .main-container {
         margin: 5px 20px 20px 20px;
         max-width: 800px;
@@ -335,6 +340,10 @@ article img {
         font-size: 15px;
     }
 
+    .footer {
+        bottom: -70px;
+    }
+
     .footer-port {
         position: static;
     }
@@ -355,8 +364,9 @@ article img {
     }
 
     .nav-bar li {
-        padding-left: 50px;
-        padding-right: 60px;
+        padding-left: 80px;
+        padding-right: 20px;
+
     }
 
     .nav-bar-port li {
@@ -391,6 +401,9 @@ article img {
     .footer,
     .footer-port {
         font-size: 15px;
+    }
+    .footer {
+        bottom: -200px;
     }
 
     .footer-port {
